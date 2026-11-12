@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Q01",
+    "question": "What power adapter does the display need?"
+  },
+  {
+    "id": "Q02",
+    "question": "What must I do during initial setup?"
+  },
+  {
+    "id": "Q03",
+    "question": "Which wireless networks are supported?"
+  },
+  {
+    "id": "Q04",
+    "question": "How long can I use downloaded history offline?"
+  },
+  {
+    "id": "Q05",
+    "question": "Does a factory reset cancel my subscription?"
+  },
+  {
+    "id": "Q06",
+    "question": "Which data export format does version three support?"
+  },
+  {
+    "id": "Q07",
+    "question": "What is the longest date range for one export?"
+  },
+  {
+    "id": "Q08",
+    "question": "How many household profiles can I create?"
+  },
+  {
+    "id": "Q09",
+    "question": "What can a guest see and change?"
+  },
+  {
+    "id": "Q10",
+    "question": "What are the default quiet hours?"
+  },
+  {
+    "id": "Q11",
+    "question": "How do I stop all notification emails?"
+  },
+  {
+    "id": "Q12",
+    "question": "When does a plan upgrade take effect?"
+  },
+  {
+    "id": "Q13",
+    "question": "How long can I pause my subscription?"
+  },
+  {
+    "id": "Q14",
+    "question": "How do I stop my subscription from renewing?"
+  },
+  {
+    "id": "Q15",
+    "question": "Is annual billing available?"
+  },
+  {
+    "id": "Q16",
+    "question": "What is the refund window for my first subscription purchase?"
+  },
+  {
+    "id": "Q17",
+    "question": "Can I return opened hardware because I changed my mind?"
+  },
+  {
+    "id": "Q18",
+    "question": "Who pays for shipping on a change-of-mind return?"
+  },
+  {
+    "id": "Q19",
+    "question": "How long does the hardware warranty last?"
+  },
+  {
+    "id": "Q20",
+    "question": "Does the hardware warranty transfer to a new owner?"
+  },
+  {
+    "id": "Q21",
+    "question": "Does the warranty cover a lost adapter?"
+  },
+  {
+    "id": "Q22",
+    "question": "When is support available, and can I call?"
+  },
+  {
+    "id": "Q23",
+    "question": "How many business days does standard delivery take after dispatch?"
+  },
+  {
+    "id": "Q24",
+    "question": "How soon must I report delivery damage?"
+  },
+  {
+    "id": "Q25",
+    "question": "Can I collect an order in Northport?"
+  },
+  {
+    "id": "Q26",
+    "question": "What export features does version two support?"
+  },
+  {
+    "id": "Q27",
+    "question": "How many local history entries can the display store?"
+  },
+  {
+    "id": "Q28",
+    "question": "How long can I cancel a cloud-archive deletion request?"
+  },
+  {
+    "id": "Q29",
+    "question": "How should I clean the display safely?"
+  },
+  {
+    "id": "Q30",
+    "question": "What information is included in a diagnostic package?"
+  }
+]

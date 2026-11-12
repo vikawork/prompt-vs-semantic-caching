@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "utc": "2026-11-12T11:55:56.209737+00:00",
+      "loadavg_1m": 8.86
+    },
+    {
+      "utc": "2026-11-12T11:56:06.209967+00:00",
+      "loadavg_1m": 7.66
+    },
+    {
+      "utc": "2026-11-12T11:56:16.210233+00:00",
+      "loadavg_1m": 6.63
+    },
+    {
+      "utc": "2026-11-12T11:56:26.210499+00:00",
+      "loadavg_1m": 5.77
+    }
+  ],
+  "wait_seconds": 30.000840744003654,
+  "start_loadavg_1m": 5.77,
+  "high_load_start": false,
+  "limit": 6,
+  "maximum_wait_seconds": 600,
+  "condition": "warm",
+  "repeat": 1,
+  "order_position": 1,
+  "order": [
+    "cold",
+    "warm",
+    "early-change",
+    "late-change"
+  ]
+}

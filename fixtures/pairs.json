@@ -1,0 +1,422 @@
+[
+  {
+    "id": "S2-001",
+    "question1": "How do I cancel my order?",
+    "question2": "How can I stop an order I placed?",
+    "same_answer": true,
+    "reason": "Both ask to cancel an order."
+  },
+  {
+    "id": "S2-002",
+    "question1": "How do I cancel my subscription?",
+    "question2": "How can I end my recurring plan?",
+    "same_answer": true,
+    "reason": "Both ask to end a recurring subscription."
+  },
+  {
+    "id": "S2-003",
+    "question1": "Where is my refund?",
+    "question2": "How can I check the status of my refund?",
+    "same_answer": true,
+    "reason": "Both ask for the refund status."
+  },
+  {
+    "id": "S2-004",
+    "question1": "Can I return an unopened item?",
+    "question2": "May I send back a product I have not opened?",
+    "same_answer": true,
+    "reason": "Both ask about returning an unopened item."
+  },
+  {
+    "id": "S2-005",
+    "question1": "How do I change my delivery address?",
+    "question2": "Where can I update the address for my shipment?",
+    "same_answer": true,
+    "reason": "Both ask to update a shipment address."
+  },
+  {
+    "id": "S2-006",
+    "question1": "How do I reset my password?",
+    "question2": "I forgot my password. How can I set a new one?",
+    "same_answer": true,
+    "reason": "Both ask for the password reset procedure."
+  },
+  {
+    "id": "S2-007",
+    "question1": "Where can I download my invoice?",
+    "question2": "How do I get a copy of my bill?",
+    "same_answer": true,
+    "reason": "Both ask to obtain an invoice copy."
+  },
+  {
+    "id": "S2-008",
+    "question1": "How do I update my payment card?",
+    "question2": "Where can I replace the card used for payments?",
+    "same_answer": true,
+    "reason": "Both ask to replace the saved payment card."
+  },
+  {
+    "id": "S2-009",
+    "question1": "Why was my payment declined?",
+    "question2": "Why did the payment fail to go through?",
+    "same_answer": true,
+    "reason": "Both ask why a payment was rejected."
+  },
+  {
+    "id": "S2-010",
+    "question1": "How do I turn off renewal?",
+    "question2": "How can I stop my plan from renewing automatically?",
+    "same_answer": true,
+    "reason": "Both ask to disable automatic renewal."
+  },
+  {
+    "id": "S2-011",
+    "question1": "Does the plan include phone support?",
+    "question2": "Is telephone support part of this plan?",
+    "same_answer": true,
+    "reason": "Both ask whether phone support is included."
+  },
+  {
+    "id": "S2-012",
+    "question1": "When will my order arrive?",
+    "question2": "What is the expected delivery date for my order?",
+    "same_answer": true,
+    "reason": "Both ask for the order delivery estimate."
+  },
+  {
+    "id": "S2-013",
+    "question1": "Can I pause my subscription?",
+    "question2": "Can I temporarily put my recurring plan on hold?",
+    "same_answer": true,
+    "reason": "Both ask about temporarily pausing a subscription."
+  },
+  {
+    "id": "S2-014",
+    "question1": "How do I export my data?",
+    "question2": "How can I download a copy of my account data?",
+    "same_answer": true,
+    "reason": "Both ask for an account data export."
+  },
+  {
+    "id": "S2-015",
+    "question1": "How do I delete my account?",
+    "question2": "What steps permanently close my account?",
+    "same_answer": true,
+    "reason": "Both ask to permanently close the account."
+  },
+  {
+    "id": "S2-016",
+    "question1": "How do I enable two-step login?",
+    "question2": "How can I add a second verification step when signing in?",
+    "same_answer": true,
+    "reason": "Both ask to enable a second login factor."
+  },
+  {
+    "id": "S2-017",
+    "question1": "Can I change the billing email?",
+    "question2": "May I update the email address that receives bills?",
+    "same_answer": true,
+    "reason": "Both ask to update the billing contact email."
+  },
+  {
+    "id": "S2-018",
+    "question1": "How do I track my parcel?",
+    "question2": "Where can I see the tracking status of my shipment?",
+    "same_answer": true,
+    "reason": "Both ask for shipment tracking."
+  },
+  {
+    "id": "S2-019",
+    "question1": "Is the warranty transferable?",
+    "question2": "Can a new owner use the remaining warranty?",
+    "same_answer": true,
+    "reason": "Both ask whether the warranty transfers to a new owner."
+  },
+  {
+    "id": "S2-020",
+    "question1": "Can I exchange this for another size?",
+    "question2": "May I swap my item for a different size?",
+    "same_answer": true,
+    "reason": "Both ask for a size exchange."
+  },
+  {
+    "id": "S2-021",
+    "question1": "How do I report a damaged item?",
+    "question2": "My item arrived broken. How do I report it?",
+    "same_answer": true,
+    "reason": "Both ask to report delivery damage."
+  },
+  {
+    "id": "S2-022",
+    "question1": "Where can I find my licence key?",
+    "question2": "How do I locate the key that activates my software?",
+    "same_answer": true,
+    "reason": "Both ask to locate the activation key."
+  },
+  {
+    "id": "S2-023",
+    "question1": "How do I remove a team member?",
+    "question2": "How can I revoke a member's access to my team?",
+    "same_answer": true,
+    "reason": "Both ask to remove a team member's access."
+  },
+  {
+    "id": "S2-024",
+    "question1": "Can I pay once a year?",
+    "question2": "Is annual billing available?",
+    "same_answer": true,
+    "reason": "Both ask whether yearly billing is available."
+  },
+  {
+    "id": "S2-025",
+    "question1": "Does version 3 work offline?",
+    "question2": "Can I use version 3 without an internet connection?",
+    "same_answer": true,
+    "reason": "Both ask about offline use of the same version."
+  },
+  {
+    "id": "S2-026",
+    "question1": "Can I get a refund within 30 days?",
+    "question2": "Am I eligible for a refund during the first 30 days?",
+    "same_answer": true,
+    "reason": "Both ask about the same refund window."
+  },
+  {
+    "id": "S2-027",
+    "question1": "Can I collect my order in Northport?",
+    "question2": "Is pickup in Northport available for my order?",
+    "same_answer": true,
+    "reason": "Both ask about pickup in the same invented service area."
+  },
+  {
+    "id": "S2-028",
+    "question1": "Can delivery be moved to 15 June?",
+    "question2": "May I reschedule delivery for 15 June?",
+    "same_answer": true,
+    "reason": "Both ask to move delivery to the same date."
+  },
+  {
+    "id": "S2-029",
+    "question1": "Why was I charged 20 credits?",
+    "question2": "What caused the 20-credit charge on my bill?",
+    "same_answer": true,
+    "reason": "Both ask about the same charge amount."
+  },
+  {
+    "id": "S2-030",
+    "question1": "How do I stop email notifications?",
+    "question2": "Where can I switch off notification emails?",
+    "same_answer": true,
+    "reason": "Both ask to disable email notifications."
+  },
+  {
+    "id": "S2-031",
+    "question1": "How do I cancel my order?",
+    "question2": "How do I cancel my subscription?",
+    "same_answer": false,
+    "reason": "An order cancellation and a subscription cancellation use different procedures."
+  },
+  {
+    "id": "S2-032",
+    "question1": "Can I get a refund within 30 days?",
+    "question2": "Can I get a refund after 30 days?",
+    "same_answer": false,
+    "reason": "The fixture permits refunds within 30 days and excludes later refunds."
+  },
+  {
+    "id": "S2-033",
+    "question1": "Does version 2 support data export?",
+    "question2": "Does version 3 support data export?",
+    "same_answer": false,
+    "reason": "The fixture gives version 3 data export and version 2 no data export."
+  },
+  {
+    "id": "S2-034",
+    "question1": "Can I collect my order in Northport?",
+    "question2": "Can I collect my order in Southport?",
+    "same_answer": false,
+    "reason": "The fixture offers pickup in Northport and delivery only in Southport."
+  },
+  {
+    "id": "S2-035",
+    "question1": "Can delivery be moved to 15 June?",
+    "question2": "Can delivery be moved to 16 June?",
+    "same_answer": false,
+    "reason": "The requested delivery dates are different."
+  },
+  {
+    "id": "S2-036",
+    "question1": "Why was I charged 20 credits?",
+    "question2": "Why was I charged 200 credits?",
+    "same_answer": false,
+    "reason": "The amounts identify different billing issues."
+  },
+  {
+    "id": "S2-037",
+    "question1": "Please renew my subscription.",
+    "question2": "Please do not renew my subscription.",
+    "same_answer": false,
+    "reason": "Negation reverses the requested renewal action."
+  },
+  {
+    "id": "S2-038",
+    "question1": "Please enable email alerts.",
+    "question2": "Please disable email alerts.",
+    "same_answer": false,
+    "reason": "The requested alert settings are opposites."
+  },
+  {
+    "id": "S2-039",
+    "question1": "How do I delete my account?",
+    "question2": "How do I delete my saved payment card?",
+    "same_answer": false,
+    "reason": "Account deletion and payment-card deletion remove different objects."
+  },
+  {
+    "id": "S2-040",
+    "question1": "Can I return an unopened item?",
+    "question2": "Can I return an opened item?",
+    "same_answer": false,
+    "reason": "The fixture accepts unopened returns and excludes opened returns."
+  },
+  {
+    "id": "S2-041",
+    "question1": "How do I change my billing address?",
+    "question2": "How do I change my delivery address?",
+    "same_answer": false,
+    "reason": "Billing and delivery addresses affect different records."
+  },
+  {
+    "id": "S2-042",
+    "question1": "Can I transfer a personal licence?",
+    "question2": "Can I transfer a team licence?",
+    "same_answer": false,
+    "reason": "The fixture allows personal licence transfers and forbids team licence transfers."
+  },
+  {
+    "id": "S2-043",
+    "question1": "Please refund order 410.",
+    "question2": "Please refund order 401.",
+    "same_answer": false,
+    "reason": "The requests target different orders."
+  },
+  {
+    "id": "S2-044",
+    "question1": "Please remove the team owner.",
+    "question2": "Please remove a team member.",
+    "same_answer": false,
+    "reason": "Removing an owner requires a different role-sensitive procedure."
+  },
+  {
+    "id": "S2-045",
+    "question1": "How do I upgrade from basic to plus?",
+    "question2": "How do I downgrade from plus to basic?",
+    "same_answer": false,
+    "reason": "The plan changes run in opposite directions."
+  },
+  {
+    "id": "S2-046",
+    "question1": "Please pause my plan for one month.",
+    "question2": "Please pause my plan for one year.",
+    "same_answer": false,
+    "reason": "The requested pause durations differ."
+  },
+  {
+    "id": "S2-047",
+    "question1": "The item arrived damaged.",
+    "question2": "The item never arrived.",
+    "same_answer": false,
+    "reason": "Damage and non-delivery require different investigations."
+  },
+  {
+    "id": "S2-048",
+    "question1": "Can I reset a forgotten password?",
+    "question2": "Can I recover a deleted account?",
+    "same_answer": false,
+    "reason": "A password reset cannot answer an account-recovery request."
+  },
+  {
+    "id": "S2-049",
+    "question1": "Please send a replacement battery.",
+    "question2": "Please send a replacement charger.",
+    "same_answer": false,
+    "reason": "The requests need different replacement parts."
+  },
+  {
+    "id": "S2-050",
+    "question1": "Can I use the device indoors?",
+    "question2": "Can I use the device outdoors?",
+    "same_answer": false,
+    "reason": "The fixture permits indoor use and excludes outdoor use."
+  },
+  {
+    "id": "S2-051",
+    "question1": "Can I pay in monthly instalments?",
+    "question2": "Can I pay the full amount now?",
+    "same_answer": false,
+    "reason": "Instalments and a full payment are different billing arrangements."
+  },
+  {
+    "id": "S2-052",
+    "question1": "Please turn on two-step login.",
+    "question2": "Please turn off two-step login.",
+    "same_answer": false,
+    "reason": "The requested security settings are opposites."
+  },
+  {
+    "id": "S2-053",
+    "question1": "Can I change the order before dispatch?",
+    "question2": "Can I change the order after dispatch?",
+    "same_answer": false,
+    "reason": "Before dispatch the order can be edited; after dispatch it must be recalled."
+  },
+  {
+    "id": "S2-054",
+    "question1": "Is my trial still active?",
+    "question2": "Is my paid plan still active?",
+    "same_answer": false,
+    "reason": "Trial and paid-plan status concern different entitlements."
+  },
+  {
+    "id": "S2-055",
+    "question1": "Can I export my data as CSV?",
+    "question2": "Can I export my data as PDF?",
+    "same_answer": false,
+    "reason": "The fixture supports CSV export and does not support PDF export."
+  },
+  {
+    "id": "S2-056",
+    "question1": "Can I add five team seats?",
+    "question2": "Can I remove five team seats?",
+    "same_answer": false,
+    "reason": "Adding seats and removing seats change capacity in opposite directions."
+  },
+  {
+    "id": "S2-057",
+    "question1": "My payment went through twice.",
+    "question2": "My payment did not go through.",
+    "same_answer": false,
+    "reason": "A duplicate payment and a failed payment require different remedies."
+  },
+  {
+    "id": "S2-058",
+    "question1": "Please keep my saved files.",
+    "question2": "Please do not keep my saved files.",
+    "same_answer": false,
+    "reason": "Negation reverses the requested data-retention action."
+  },
+  {
+    "id": "S2-059",
+    "question1": "Can I cancel without a fee?",
+    "question2": "Can I cancel for a fee?",
+    "same_answer": false,
+    "reason": "The fixture charges a cancellation fee, so a free cancellation is unavailable."
+  },
+  {
+    "id": "S2-060",
+    "question1": "Please deliver to unit 12.",
+    "question2": "Please deliver to unit 21.",
+    "same_answer": false,
+    "reason": "The requested destination units are different."
+  }
+]

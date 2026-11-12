@@ -1,0 +1,26 @@
+{
+  "samples": [
+    {
+      "utc": "2026-11-12T11:58:14.521639+00:00",
+      "loadavg_1m": 6.24
+    },
+    {
+      "utc": "2026-11-12T11:58:24.521890+00:00",
+      "loadavg_1m": 5.59
+    }
+  ],
+  "wait_seconds": 10.000329250993673,
+  "start_loadavg_1m": 5.59,
+  "high_load_start": false,
+  "limit": 6,
+  "maximum_wait_seconds": 600,
+  "condition": "early-change",
+  "repeat": 1,
+  "order_position": 2,
+  "order": [
+    "cold",
+    "warm",
+    "early-change",
+    "late-change"
+  ]
+}
