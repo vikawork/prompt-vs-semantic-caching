@@ -2,6 +2,20 @@
 
 Question: how much prompt work does a prefix cache save, and how often does a similarity cache serve a different answer?
 
+## Headline figures
+
+Written by hand from `results/summary.json` and `results/semantic-pairs.jsonl`; every figure also appears in a table below.
+
+- Prefix cache, first pass, pooled medians over three runs of 30 questions: with the cache off a request evaluated 3,780 prompt tokens and the server reported 0 cached; warm requests evaluated 514 and the server reported 3,266 cached. Warm figures exclude each server's first request.
+- With a changing synthetic timestamp line at the start of the prompt, the median was 3,810 tokens evaluated and the server reported 0 cached tokens on every request. With the same line after the manual, warm requests evaluated a median of 514 and the server reported 3,296 cached.
+- Two manuals alternating on one server slot: median 3,898 tokens evaluated, 0 reported cached. On two slots: median 514 evaluated, 3,325 reported cached.
+- Follow-up timing pass, pooled median time to first output: cache off 4,514.339 ms; warm 728.903 ms; timestamp at the start 5,664.979 ms; timestamp after the manual 785.973 ms. Load was recorded, not controlled; the timings do not isolate the speedup from caching.
+- Exact-output comparison, cache off against warm, temperature 0, output capped at 48 tokens: 24 of 90 pairs differed, across 8 of the 30 questions.
+- Public labelled pairs (2,000 sampled from Quora Question Pairs): 0.970 was the first scanned cutoff accepting fewer than 1% of pairs labelled not duplicate; it accepted 17.1% of pairs labelled duplicate. The cutoff was selected and scored on the same sample.
+- Authored support pairs (60): the 30 same-answer pairs scored 0.762 to 0.940; the 30 different-answer pairs scored 0.723 to 0.982; 5 different-answer pairs scored above every same-answer pair. At a cutoff of 0.900 the pairwise test accepts 7 of 30 same-answer pairs and 13 of 30 different-answer pairs. This tests question matching, not the answers a cache would return.
+- Embedding one query and searching the store took a median of 2.547 ms on this machine.
+
+
 ## Timing follow-up: rotated condition blocks
 
 The first pass is preserved below and in `REPORT-first-pass.md`; its timing conditions were run consecutively while machine load changed. The follow-up rotates condition blocks, with a fresh server for each block and unchanged inference settings. It does not alternate individual requests between conditions.
